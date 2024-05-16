@@ -46,6 +46,17 @@ header a {
   font-size: large;
 }
 
+.workout-details button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background-color: #333;
+  padding: 6px;
+  border-radius: 10%;
+  color: #f1f1f1;
+}
+
 /* new workout form  */
 
 label, input {
