@@ -51,10 +51,21 @@ header a {
   top: 20px;
   right: 20px;
   cursor: pointer;
-  background-color: #333;
+  background-color: #f1f1f1;
   padding: 6px;
-  border-radius: 10%;
-  color: #f1f1f1;
+  border: 0px;
+  border-radius: 50%;
+}
+
+.workout-details button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.workout-details .time-info {
+  color: #333;
+  font-size: small;
+  font-weight: 500;
 }
 
 /* new workout form  */
@@ -81,10 +92,16 @@ form button {
   cursor: pointer;
 }
 
-form .error {
+div.error {
   padding: 10px;
+  background-color: #ffefef;
   border: 1px solid red;
   color: red;
   border-radius: 4px;
   margin: 20px auto;
+  font-size: small;
+}
+
+input.error {
+  border: 1px solid red;
 }
