@@ -10,6 +10,14 @@ export default defineConfig({
         target: "http://localhost:4000",
         changeOrigin: true,
       },
+      "/api/user/signup": {
+        target: "http://localhost:4000",
+        changeOrigin: true,
+      },
+      "/api/user/login": {
+        target: "http://localhost:4000",
+        changeOrigin: true,
+      },
     },
   },
 });
